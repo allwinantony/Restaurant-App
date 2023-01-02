@@ -7,7 +7,7 @@ function Restaurantcards({restaurant}) {
     console.log(restaurant)
   return (
     
-    <Link style={{textDecoration:"none", color:"white"}} to={`viewrestaurant/${restaurant.id}`}>
+    <Link style={{textDecoration:"none", color:"white", marginTop:"100px"}} to={`viewrestaurant/${restaurant.id}`}>
     <Card className='m-4' sm={12} md={6} lg={4} xl={3}>
           <Card.Img variant="top" className='p-2 rounded-4' src={restaurant.photograph} />
           <Card.Body>

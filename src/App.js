@@ -11,11 +11,12 @@ function App() {
       <Router>
       <header className="App-header">
         <Headers/>
-
+        <div>
         <Routes>
           <Route path='/' element={<RestaurantList/>}/>
           <Route path='/viewrestaurant/:id' element={<Viewrestaurant/>}/>
         </Routes>
+        </div>
 
       </header>
 
